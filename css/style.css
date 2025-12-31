@@ -192,3 +192,103 @@ nav a:hover {
   font-size: 0.9rem;
   color: #c7ed89;
 }
+
+/* ===========================
+   MOBILE RESPONSIVE DESIGN
+   =========================== */
+
+@media (max-width: 768px) {
+
+  /* BODY */
+  body {
+    font-size: 14px;
+  }
+
+  /* NAVBAR */
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 5%;
+    text-align: center;
+  }
+
+  nav div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  nav a {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+
+  /* CONTAINER */
+  .container {
+    padding: 40px 6%;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  /* HEADINGS */
+  .container h1 {
+    font-size: 2.2rem;
+    margin-top: 0;
+  }
+
+  .container h2 {
+    font-size: 1.2rem;
+  }
+
+  .container p {
+    margin-top: 10px;
+    font-size: 0.95rem;
+  }
+
+  /* IMAGES */
+  img {
+    width: 90% !important;
+    max-width: 280px;
+    margin: auto;
+  }
+
+  /* SKILLS */
+  .skills-section {
+    margin-top: 20px;
+  }
+
+  .skills-title {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+
+  .skills-cards {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-left: 0 !important;
+  }
+
+  .skill-card h3 {
+    margin-bottom: 10px;
+  }
+
+  /* CONTACT */
+  .contact-section {
+    margin-left: 0 !important;
+  }
+
+  .contact-cards {
+    justify-content: center;
+    margin-left: 0 !important;
+    gap: 20px;
+  }
+
+  .contact-card {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+}
+
